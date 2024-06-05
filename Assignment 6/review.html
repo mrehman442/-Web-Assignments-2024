@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Review</title>
+</head>
+
+<body style="text-align: center; font-family: Arial, Helvetica, sans-serif;">
+    <table style="width:100%; border-collapse: collapse; ">
+          <tr>
+                <td style="background-color:greenyellow; text-align: center; padding: 8px;">Step 1: Account</td>
+                <td style="background-color:greenyellow; text-align: center; padding: 8px;">Step 2: Personal Details</td>
+                <td style="background-color:lightblue; text-align: center; padding: 8px;">Your Review</td>
+              </tr>
+    </table>
+    <form action="recieve.html" method="get">
+        <h2> Your Review </h2>
+          <label for="email">How did you hear about us?</label>
+          <select name="hearus">
+            <option value="select you Option">select you Option</option>
+            <option value="fb">Facebook</option>
+            <option value="linkedin">Linkedin</option>
+            <option value="insta">Instagram</option>
+        </select><br><br>
+          <label for="visit">Would you visit again?</label><br>
+          <input type="radio" name="visit"><label for="yes">Yes</label>
+        <input type="radio" name="visit"><label for="no">No</label>
+        <input type="radio" name="visit"><label for="maybe">Maybe</label><br><br>
+         
+          <label for="comment">Comments:</label><br>
+          <textarea rows="10" cols="50" name="comment" > Enter your comments here...</textarea><br><br>
+        <label for="doc">Documents:</label><br>
+        <input type="file" required="required"><br><br>
+        <input type="checkbox" name="signup" id="" required="required"><label for="doc">Sign me up for email updates</label> <br><br>
+         <a href="./pdetails.html" style="text-decoration: none;"> <img src="./image/back.png" width="10%"   > </a>
+          <input type="image" src="./image/submit.png" width="10%">
+         
+    </form>
+
+</body>
+
+</html>
